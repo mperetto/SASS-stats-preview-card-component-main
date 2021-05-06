@@ -1,0 +1,24 @@
+:root {
+  /*  Primary Colors  */
+  --very-dark-blue: #090b1a;
+  --dark-desaturated-blue: #1b1938;
+  --soft-violet: #aa5cdb;
+  /*  Neutral Colors  */
+  --white: white;
+  --slightly-transparent-white: rgba(255, 255, 255, 0.75);
+  --slightly-transparent-white-stat: rgba(255, 255, 255, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--white);
+  background: var(--very-dark-blue);
+}
+/*# sourceMappingURL=style.css.map */
