@@ -10,27 +10,50 @@
   <link rel="stylesheet" href="./style/style.css">
 
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <div class="wrapper">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <div class="container">
 
-  10k+ companies
-  314 templates
-  12m+ queries
+      <div class="card">
+        <section class="text-info">
+          
+            <h1>Get <span class="accent">insights</span> that help your business grow.</h1>
+    
+            <p class="description secondary">
+              Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+              experience, and overall efficiency.
+            </p>
+          
+          <section class="stats">
+            <p>10k+ <span class="secondary">companies</span></p>
+            <p>314 <span class="secondary">templates</span></p>
+            <p>12M+ <span class="secondary">queries</span></p>
+          </section>
+        </section>
+        
+        <div class="img">
+          
+          <img 
+          srcset="./images/image-header-desktop.jpg 1440w, ./images/image-header-mobile.jpg 375w"
+          sizes="(max-width: 375px) 375w, 1440w"
+          class="img-fluid"
+          alt="office image">
+          <div class="overlay"></div>
+        </div>
+        
+        
+      </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
+
+  
 </body>
 </html>
