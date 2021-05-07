@@ -30,4 +30,118 @@ body {
     font-family: 'Inter', sans-serif;
     color: var(--white);
     background: var(--very-dark-blue);
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 720px;
+    margin: auto;
+    padding: 16px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background: var(--dark-desaturated-blue);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    .img {
+        position: relative;
+        flex-grow: 1;
+        min-width: 50%;
+        .overlay {
+            background: var(--soft-violet);
+            opacity: 0.5;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .text-info {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+        flex-shrink: 1;
+        h1 {
+            margin-bottom: 16px;
+        }
+        p {
+            margin-bottom: 16px;
+            font-size: .7rem;
+        }
+        .accent {
+            color: var(--soft-violet);
+        }
+        .secondary {
+            color: var(--slightly-transparent-white);
+        }
+        .stats {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            p {
+                font-family: 'Inter', sans-serif;
+                font-weight: 700;
+                font-size: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                span {
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    font-size: .7rem;
+                }
+            }
+        }
+    }
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        flex-direction: column-reverse;
+
+        .text-info {
+            h1 {
+                text-align: center;
+            }
+            p {
+                text-align: center;
+            }
+            .stats {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 24px;
+                text-align: center;
+                p {
+                    flex-direction: column;
+                    align-items: center;
+                    span {
+                        margin-top: 8px;
+                    }
+                }
+            }
+        }
+    }
 }
