@@ -118,6 +118,10 @@ body {
     max-width: 100%;
 }
 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*      Responsive      */
 @media screen and (max-width: 375px) {
     .card {
         flex-direction: column-reverse;
