@@ -68,7 +68,7 @@ I have improve my skill with CSS FlexBox
 
 ### Continued development
 
-Id like to improve my skill with CSS grid system and SASS / SCSS.
+Id like to improve my skill with CSS grid / flexbox system and SASS / SCSS.
 
 ### Useful resources
 
