@@ -60,7 +60,6 @@ body {
     text-align: left;
     .img {
         position: relative;
-        flex-grow: 1;
         min-width: 50%;
         .overlay {
             background: var(--soft-violet);
@@ -78,8 +77,6 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        flex-grow: 1;
-        flex-shrink: 1;
         h1 {
             margin-bottom: 16px;
         }
