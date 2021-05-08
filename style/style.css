@@ -97,6 +97,7 @@ body {
 }
 
 .card .text-info p {
+  line-height: 1.6;
   margin-bottom: 16px;
   font-size: .7rem;
 }
