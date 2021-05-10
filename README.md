@@ -26,15 +26,15 @@ Users should be able to:
 ### Screenshot
 
 Desktop version
-![desktop version](./design/screen-shot-desktop.png)
+![desktop version](https://raw.githubusercontent.com/mperetto/SASS-stats-preview-card-component-main/master/design/screenshot-desktop.png)
 
 Mobile Version
-![mobile version](./design/screen-shot-mobile.png)
+![mobile version](https://raw.githubusercontent.com/mperetto/SASS-stats-preview-card-component-main/master/design/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/mperetto/SASS-stats-preview-card-component-main)
+- Live Site URL: [Add live site URL here](https://stat-preview-card-component-challenge.netlify.app/)
 
 ## My process
 
